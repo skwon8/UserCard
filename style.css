@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content > * {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+    min-width: 400px;
+    min-height: 300px;
+    border: 2px solid darkgray;
+}
+
+header {
+    background-color: lightblue;
+    min-height: 65px;
+    position: relative;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.user1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.map1 {
+    width: 10px;
+}
+
+.gear1 {
+    width: 15px;
+}
